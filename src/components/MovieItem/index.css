@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.thumb-style {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
+
+.trigger-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.close-btn {
+  align-self: flex-end;
+}
+
+.player-container {
+  align-self: center;
+}
+
+@media screen and (max-width: 576px) {
+  .trigger-container {
+    padding: 5px;
+    width: 100%;
+  }
+  .player-box {
+    height: 80%;
+    width: 100%;
+  }
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 40%;
+  }
+}
